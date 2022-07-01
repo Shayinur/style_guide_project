@@ -11,23 +11,38 @@
     text-transform: uppercase;
     border-radius: 5px;
   }
+
   
   .default {
     background-color: $color-link;
+    &:hover {
+      background-color: $color-link-dark;
+    }
   }
-  
   .error {
-    background-color: #e4757a;
+    background-color: $color-error;
+    &:hover {
+      background-color: $color-error-dark;
+    }
   }
   
   .info {
-    background-color: #927bc1;
+    background-color: $color-info;
+    &:hover {
+      background-color: $color-infor-dark;
+    }
   }
   
   .success {
-    background-color: #63cc82;
+    background-color: $color-success;
+    &:hover {
+      background-color: $color-success-dark;
+    }
   }
   
   .warning {
     background-color: #fd7856;
+    &:hover {
+      background-color: $color-warning-dark;
+    }
   }

@@ -368,21 +368,36 @@ a {
 .default {
   background-color: #51ddfc;
 }
+.default:hover {
+  background-color: #03a6ca;
+}
 
 .error {
   background-color: #e4757a;
+}
+.error:hover {
+  background-color: #b6242a;
 }
 
 .info {
   background-color: #927bc1;
 }
+.info:hover {
+  background-color: #533c80;
+}
 
 .success {
   background-color: #63cc82;
 }
+.success:hover {
+  background-color: #2b8446;
+}
 
 .warning {
   background-color: #fd7856;
+}
+.warning:hover {
+  background-color: #d12d02;
 }
 
 /* ============================================= */
@@ -520,7 +535,6 @@ a {
   display: flex;
   flex-direction: column;
 }
-
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -529,7 +543,6 @@ a {
   width: 100%;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
-
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
